@@ -1,0 +1,10 @@
+server:
+    context-path: /zkapi
+    port: 8080
+    address: 127.0.0.1
+    name: zkapi
+    tomcat.uri-encoding: utf-8
+
+zk:
+    servers: 172.16.6.90:2181
+

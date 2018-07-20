@@ -1,0 +1,8 @@
+server:
+    context-path: /webclient
+    port: 6070
+    tomcat.uri-encoding: utf-8
+
+zk:
+    servers: 172.16.6.90:2181
+
